@@ -1,0 +1,10 @@
+<div class="nav">
+    <ul>
+        <li *ngIf="backend.isLoggedIn"><a>Home</a></li>
+        <li *ngIf="backend.isLoggedIn"><a>Profile</a></li>
+        <li *ngIf="backend.isLoggedIn"><a>About</a></li>
+        <li *ngIf="backend.isAdmin && backend.isLoggedIn"><a [routerLink]="['/gallary']">Gallary</a></li>
+        <li *ngIf="!backend.isLoggedIn" [routerLink]="['/login']"><a>Login</a></li>
+        <li *ngIf="backend.isLoggedIn" (click)="backend.getLogout()"><a>Logout</a></li>
+    </ul>
+</div>

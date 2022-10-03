@@ -1,0 +1,19 @@
+<div class="row">
+    <div class="col-6">
+        <h4>Login</h4>
+        <form [formGroup]="loginForm">
+        <div class="form-element">
+            <label for="username">Email</label><br>
+            <input type="text" class="username" formControlName="userName">
+        </div>
+        <div class="form-element">
+            <label for="username">Password</label><br>
+            <input type="text" class="username" formControlName="userPassword">
+        </div>
+        
+        <div class="form-element">
+            <button class="btn-submit" (click)="onLoginSubmit()"><strong>Login</strong></button>
+        </div>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,53 @@
+.row{
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+.col-6{
+    width: 40%;
+    height: 400px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.col-6 h4{
+    background-color: orange;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+.form-element{
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px 10px 10px 70px;
+}
+.form-element label{
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(78, 77, 77);
+    letter-spacing: 1px;
+}
+.form-element input{
+    width: 50%;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid orange;
+    padding: 5px;
+}
+.btn-submit{
+   width: 100px;
+   height: 30px;
+   border: 1px solid blue;
+   background-color: blue;
+   color: white;
+   border-radius: 5px;
+}
+.btn-submit:hover{
+    border: 1px solid blue;
+    color: orange;
+    background-color: white;   
+}
